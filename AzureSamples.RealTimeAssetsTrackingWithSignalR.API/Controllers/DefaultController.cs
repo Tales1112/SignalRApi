@@ -17,7 +17,8 @@ namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok();
+            return Ok("Teste deployment automatizado");
+
         }
     }
 }
